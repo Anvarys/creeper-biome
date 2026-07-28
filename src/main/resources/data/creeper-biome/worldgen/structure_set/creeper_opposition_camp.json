@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "weight": 1,
+      "structure": "creeper-biome:creeper_opposition_camp"
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 2,
+    "spacing": 4,
+    "salt": 424242
+  }
+}

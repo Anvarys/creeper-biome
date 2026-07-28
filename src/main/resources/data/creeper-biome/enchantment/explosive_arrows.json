@@ -1,0 +1,34 @@
+{
+  "description": "Explosive Arrows",
+  "supported_items": "#enchantable/bow",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 4,
+  "slots": ["mainhand", "offhand"],
+  "effects": {
+    "hit_block": [
+      {
+        "effect": {
+          "type": "creeper-biome:explosive_arrow"
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "damaging_entity",
+        "effect": {
+          "type": "creeper-biome:explosive_arrow"
+        }
+      }
+    ]
+  }
+}

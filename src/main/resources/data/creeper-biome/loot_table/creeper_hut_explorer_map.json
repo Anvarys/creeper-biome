@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "creeper-biome:on_creeper_hut_map",
+              "decoration": "minecraft:red_x",
+              "search_radius": 1000
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Creeper Hut Explorer Map",
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "function": "minecraft:discard"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "functions": []
+}
