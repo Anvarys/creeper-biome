@@ -5,7 +5,7 @@
 	"name": "Creeper biome",
 	"description": "Adds a creeper biome!",
 	"authors": [
-		"Me!"
+		"TrRuki"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/creeper-biome",
@@ -29,6 +29,7 @@
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~26.2",
 		"java": ">=25",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"terrablender": "*"
 	}
 }
