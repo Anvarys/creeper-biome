@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "weight": 1,
+      "structure": "creeper-biome:creeper_hut"
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 10,
+    "spacing": 20,
+    "salt": 424242
+  }
+}
