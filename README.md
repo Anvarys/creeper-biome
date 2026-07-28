@@ -1,9 +1,19 @@
-# Creeper biome
+# Creeper forest biome
 
-## Setup
+This mod adds a new biome called Creeper Forest
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+It is similar to dark forest, but has unique colors and structures
 
-## License
+There are 2 new structures - Creeper's opposition camp, Creeper's hut
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+The Creeper's hut is the main structure of this mod that has a new enchant
+
+#### Explosive arrows enchatment
+
+Can be applied to bows and crossbows
+
+Gives a 10%/level chance for an explosion when the arrow collides
+
+## Images
+
+![](https://github.com/Anvarys/creeper-biome/raw/main/images/image.png?raw=true)
