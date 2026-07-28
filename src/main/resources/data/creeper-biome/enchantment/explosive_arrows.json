@@ -1,6 +1,6 @@
 {
   "description": "Explosive Arrows",
-  "supported_items": "#enchantable/bow",
+  "supported_items": "#creeper-biome:enchantable/bow_and_crossbow",
   "weight": 1,
   "max_level": 5,
   "min_cost": {

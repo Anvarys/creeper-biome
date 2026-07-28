@@ -1,7 +1,6 @@
 package me.trruki;
 
 import net.minecraft.resources.Identifier;
-import terrablender.api.RegionType;
 import terrablender.api.Regions;
 import terrablender.api.TerraBlenderApi;
 
